@@ -2,8 +2,8 @@ const { app, BrowserWindow } = require('electron');
 
 function createWindow() {
   const win = new BrowserWindow({
-    width: 500,
-    height: 250,
+    width: 900,
+    height: 770,
     frame: false,  // Disables the default frame with title bar and controls
     resizable: false,
     transparent: true,  // Makes the window background transparent
